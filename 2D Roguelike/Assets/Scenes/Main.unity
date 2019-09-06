@@ -287,3 +287,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45b8b318a87e2484c8ac2c7f53813f1e, type: 3}
+--- !u!1 &1684544663 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4053586204440315215, guid: 45b8b318a87e2484c8ac2c7f53813f1e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1684544662}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1684544664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684544663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2dc28f3ce4be9f4f9e338cd50e9681f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveTime: 0.1
+  blockingLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  wallDamage: 1
+  pointsPerFood: 10
+  pointsPerSoda: 20
+  restartLevelDelay: 1
